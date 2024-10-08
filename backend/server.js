@@ -1,5 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
+import cors from "cors";
 const app = express();
 dotenv.config();
 const PORT = process.env.PORT||3000;
@@ -11,6 +12,8 @@ app.listen(PORT, () => {
 
 import connectDB from "./config/dbConnect.js";
 connectDB();
+
+app.use(cors());
 
 app.get("/", (req, res) => {
   res.send("Hello from the server");
