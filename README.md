@@ -54,6 +54,7 @@ The backend can be deployed on platforms such as Vercel or any Node.js-compatibl
 ## Related Projects
 
 - **Frontend Repo:** [BusTracker Web App](https://github.com/SuyashShukla0007/BusTrackerIot)
+- **Project Report:** [click here ](https://drive.google.com/file/d/1lUlzR1xDX94DB2SzRuoLnRD8Qnnj1Ged/view)
 
 ## Contributing
 
